@@ -107,3 +107,19 @@ SC056::SendText "<"
 >!SC01B::SendText "~"
 >!SC032::SendText "µ"
 >!SC056::SendText "|"
+
+Snip() {
+    Run "ms-screenclip:"
+}
+
+RAlt & Insert::Snip()
+RAlt & Ins::Snip()
+
+>!Insert::Snip()
+>!Ins::Snip()
+
+<^>!Insert::Snip()
+<^>!Ins::Snip()
+
+^!Insert::Snip()
+^!Ins::Snip()
